@@ -1,5 +1,5 @@
 # commands-notes
-1) ### sudo systemctl daemon-reload: 
+1) ### sudo systemctl daemon-reload
        Reloads the systemd manager configuration.
   This command is used when you modify any systemd unit files, so the systemd service manager is aware of the changes.
 
