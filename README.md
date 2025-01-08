@@ -4,4 +4,4 @@
 - sudo systemctl status [service_name]
 - sudo journalctl -u myapp.service -n 50
 - docker build -t [image-name] -f [Dockerfile path] .
-- docker run -d --name my-app -p 5000:5000 [image-name]
+- docker run -d --name [container-name] -p 5000:5000 [image-name]
